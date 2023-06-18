@@ -16,7 +16,7 @@ async def get_user(user_id):
             "user_id": user_id,
             "method":"SYShort",
             "shortener_api": None,
-            "mdisk_api": None,
+            "SYShort_api": None,
             "header_text": "",
             "footer_text": "",
             "username": "SYShort",
