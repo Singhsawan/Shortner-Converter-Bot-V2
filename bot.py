@@ -61,7 +61,7 @@ if __name__ == "__main__" :
 
 # Removed Upper All Codes Because This is Not Required Now. 
 
-#SESSION = "DKBOTZ"
+#SESSION = "SYShort"
 
 #class Bot(Client):
 
