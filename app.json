@@ -9,7 +9,7 @@
   "repository": "https://github.com/NikhilNGY/Shortner-Converter-Bot-V2",
   "logo": "https://ibb.co/FgPVtzw",
   "env": {
-    "TG_BOT_TOKEN": {
+    "BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
       "value": ""
     },
@@ -17,7 +17,7 @@
       "description": "An integer of consisting of your owner ID",
       "value": "1250450587"
     },
-    "APP_ID":{
+    "API_ID":{
       "description": "your app id, take it from my.telegram.org",
       "value": ""
     },
@@ -54,7 +54,7 @@
       "value": "",
       "required": false
     },
-    "PROTECT_CONTENT": {
+    "LINK_BYPASS": {
       "description": "Protect contents from getting forwarded",
       "value": "False",
       "required": false
