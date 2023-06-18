@@ -3,7 +3,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**Hello, {}
-I Am ShortnerFly.com, Bulk Link Converter. I Can Convert Links Directly From Your ShortnerFly Account,
+I Am ShortnerFly.com, Bulk Link Converter. I Can Convert Links Directly From Your SYShort Account,
     
 1. Go To 👉 https://SYShort.com/member/tools/api  
 2. Than Copy API Key
@@ -11,14 +11,14 @@ I Am ShortnerFly.com, Bulk Link Converter. I Can Convert Links Directly From You
 
 **/api(space)API Key 
 (See Example.👇)
-Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
+Example:** `/api 00a49e7930ba94fac4d8b386fb37995eb59fc27f `
 
 **➕ Hit** 👉 /Features To Know More Features Of This Bot.
 **💁‍♀️ Hit** 👉 /help To Get Help.
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of Shortnerfly than **contact** at 👉 @Cyniteofficial (all **shortners** support available.)
+If You Want Any **Other Shortner** Link Converter Bot Instead Of Shortnerfly than **contact** at 👉 @SYShort (all **shortners** support available.)
 '''
 
 HELP_MESSAGE = '''**Hello, {}
@@ -30,17 +30,17 @@ I Am ShortnerFly, Bulk Link Converter Bot. I Can Convert Links Directly From You
 
 **/api(space)API Key 
 (See Example.👇)
-Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
+Example:** `/api 00a49e7930ba94fac4d8b386fb37995eb59fc27f `
 
 **➕ Hit** 👉 /Features To Know More Features Of This Bot.
 **💁‍♀️ Hit** 👉 /help To Get Help.
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of ""SYShort** than **contact** at 👉 @Cyniteofficial (all **shortners support** available.)**
+If You Want Any **Other Shortner** Link Converter Bot Instead Of ""SYShort** than **contact** at 👉 @SYShort (all **shortners support** available.)**
 '''
 
-ABOUT_TEXT = '''**Hey! My name is @ShortnerFlyBot. I am Shortener Fly Link Converter Bot.**
+ABOUT_TEXT = '''**Hey! My name is @SYShort_Robot. I am SYShort Link Converter Bot.**
 
 **⚡Features⚡**
 
@@ -96,7 +96,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://ShortnerFly.com/member/tools/api')
+        InlineKeyboardButton('Get Api', url=f'https://SYShort.com/member/tools/api')
     ]
 ])
 
@@ -110,7 +110,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://SYShort/ref/rngharman)
+- Website: [{base_site}](https://syshort.com/ref/Nikhil5757h)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -129,9 +129,9 @@ USER_ABOUT_MESSAGE = """
 SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, 
 `/set_api [api]`
             
-Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
+Ex: `/api 00a49e7930ba94fac4d8b386fb37995eb59fc27f `
 
-Get API From [{base_site}](https://SYShort/ref/rngharman)
+Get API From [{base_site}](https://syshort.com/ref/Nikhil5757h)
 
 Current {base_site} API: `{shortener_api}`"""
 
