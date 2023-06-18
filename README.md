@@ -10,7 +10,7 @@ Convert Any Shortner Link To Your With Post
 ## TG Bot [@SYShort](t.me/SYShort)
 
 ## Credit 
-* [Contact](https://t.me/SYShort)]
+* [Contact](https://t.me/SYShort)
 
 ## Deploy 
 
