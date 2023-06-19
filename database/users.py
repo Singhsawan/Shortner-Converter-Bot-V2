@@ -14,7 +14,7 @@ async def get_user(user_id):
     if not user:
         res = {
             "user_id": user_id,
-            "method":"SYShort",
+            "method":"syshort",
             "shortener_api": None,
             "SYShort_api": None,
             "header_text": "",
