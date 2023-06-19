@@ -57,7 +57,7 @@ if __name__ == "__main__" :
         logging.info('Bot started')
 
 
-    SYShort.run()
+    syshort.run()
 
 # Removed Upper All Codes Because This is Not Required Now. 
 
@@ -82,5 +82,5 @@ if __name__ == "__main__" :
         await super().stop()
         logging.info("Bot stopped. Bye.")
 
-#SYShort = Bot()
-#SYShort.run()
+#syshort = Bot()
+#syshort.run()
