@@ -82,5 +82,5 @@ if __name__ == "__main__" :
         await super().stop()
         logging.info("Bot stopped. Bye.")
 
-#dkbotz = Bot()
-#dkbotz.run()
+#SYShort = Bot()
+#SYShort.run()
