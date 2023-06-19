@@ -33,8 +33,8 @@ if __name__ == "__main__" :
     plugins = dict(
         root="plugins"
     )
-    SYShort = Client(
-        "SYShort",
+    syshort = Client(
+        "syshort",
         bot_token=BOT_TOKEN,
         api_id=API_ID,
         api_hash=API_HASH,
@@ -61,7 +61,7 @@ if __name__ == "__main__" :
 
 # Removed Upper All Codes Because This is Not Required Now. 
 
-#SESSION = "SYShort"
+#SESSION = "syshort"
 
 #class Bot(Client):
 
