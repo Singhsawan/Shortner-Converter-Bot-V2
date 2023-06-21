@@ -75,8 +75,6 @@ This feature works only in private mode only
 
 Ex: https://t.me/SYShort | SYShort"""
 
-METHOD_MESSAGE = """💬Contact Us : @Syshort_Support"""
-
 ADMINS_MESSAGE = """
 List of Admins who has access to this Bot
 
@@ -116,15 +114,6 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
 
     
 ])
-
-METHOD_REPLY_MARKUP = InlineKeyboardMarkup([
-    [
-        InlineKeyboardButton('Shortener', callback_data=f'change_method#shortener')
-   
-    ],      
-
-    
- ])
 
 BACK_REPLY_MARKUP = InlineKeyboardMarkup([
     [
