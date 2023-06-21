@@ -61,7 +61,7 @@ async def main_convertor_handler(
     if len(await extract_link(caption)) <= 0 and not message.reply_markup:
         return
 
-    user_method = user["method"]
+    user_method = user["base_site"]
 
     # Checking if the user has set his method or not. If not, it will reply with a message.
     if user_method is None:
