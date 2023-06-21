@@ -13,7 +13,6 @@ from pyrogram.enums import ParseMode
 from pyrogram.errors import FloodWait, MessageNotModified, PeerIdInvalid
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,
                             InputMediaPhoto, Message, BotCommand)
-from shortzy import shortzy
 
 from config import *
 from database import db
