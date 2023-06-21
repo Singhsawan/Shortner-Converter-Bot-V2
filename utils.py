@@ -13,7 +13,7 @@ from pyrogram.enums import ParseMode
 from pyrogram.errors import FloodWait, MessageNotModified, PeerIdInvalid
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,
                             InputMediaPhoto, Message, BotCommand)
-from shortzy import Shortzy
+from syshort import syshort
 
 from config import *
 from database import db
@@ -256,9 +256,9 @@ async def bypass_func(url):
     return c_link
 
 
-async def is_droplink_url(url):
+async def is_syshort_url(url):
     domain = urlparse(url).netloc
-    return url if "droplink.co" in domain else False
+    return url if "syshort.com" in domain else False
 
 
 async def broadcast_admins(c: Client, Message, sender=False):
