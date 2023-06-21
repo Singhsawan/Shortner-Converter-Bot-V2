@@ -117,9 +117,9 @@ START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     
 ])
 
-METHOD_REPLY_MARKUP = InlineKeyboardMarkup(
+METHOD_REPLY_MARKUP = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Shortener", callback_data="change_method#shortener')
+        InlineKeyboardButton('Shortener', callback_data=f'change_method#shortener')
    
     ],      
 
