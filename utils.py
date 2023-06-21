@@ -188,7 +188,7 @@ async def mdisk_api_handler(user, text, alias=""):
 async def replace_link(user, text, alias=""):
     api_key = user["shortener_api"]
     base_site = user["base_site"]
-    shortzy = Shortzy(api_key, base_site)
+    syshort = syshort(api_key, base_site)
     links = await extract_link(text)
 
     for link in links:
