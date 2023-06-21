@@ -211,13 +211,13 @@ async def replace_link(user, text, alias=""):
             should_replace_link = True
 
         if should_replace_link:
-            short_link = await shortzy.convert(link, alias)
+            short_link = await syshort.convert(link, alias)
             text = text.replace(long_url, short_link)
 
     return text
 
 
-async def mdisk_droplink_convertor(user, text, alias=""):
+async def mdisk_syshort_convertor(user, text, alias=""):
     links = await mdisk_api_handler(user, text)
     links = await replace_link(user, links, alias=alias)
     return links
