@@ -111,10 +111,17 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
         InlineKeyboardButton('Get Api', url=f'https://SYShort.com/member/tools/api')
-    ]
+
+    ],
+
+    
 ])
 
-
+METHOD_REPLY_MARKUP = InlineKeyboardMarkup(
+    [
+        InlineKeyboardButton('Shortener", callback_data="change_method#shortener')
+    ]      
+ ])
 
 BACK_REPLY_MARKUP = InlineKeyboardMarkup([
     [
