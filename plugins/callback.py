@@ -198,7 +198,7 @@ async def on_callback_query(bot: Client, query: CallbackQuery):
         )
 
     elif query.data == "method_command":
-        s = METHOD_MESSAGE.format(method=user["base_site"], shortener=user["base_site"])
+        s = base_site.format(method=user["base_site"], shortener=user["base_site"])
         return await query.message.edit(s, reply_markup=METHOD_REPLY_MARKUP)
     elif query.data == "cbatch_command":
         if user_id not in ADMINS:
