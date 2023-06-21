@@ -74,7 +74,7 @@ async def main_convertor_handler(
     METHODS = {
         "mdisk": mdisk_api_handler,
         "shortener": replace_link,
-        "mdlink": mdisk_droplink_convertor,
+        "mdlink": mdisk_syshort_convertor,
     }
 
     # Replacing the username with your username.
@@ -297,14 +297,14 @@ async def update_stats(m: Message, method):
     mdisk_links = re.findall(
         r'https?://mdisk.me[^\s`!()\[\]{};:".,<>?«»“”‘’]+', message
     )
-    droplink_links = await extract_link(message)
-    total_links = len(droplink_links)
+    syshort_links = await extract_link(message)
+    total_links = len(syshort_links)
     await db.update_posts(1)
     if method == "mdisk":
-        droplink_links = []
+        syshort_links = []
     if method == "shortener":
         mdisk_links = []
-    await db.update_links(total_links, len(droplink_links), len(mdisk_links))
+    await db.update_links(total_links, len(syshort_links), len(mdisk_links))
 
 
 async def get_me_button(user):
