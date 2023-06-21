@@ -75,12 +75,18 @@ This feature works only in private mode only
 
 Ex: https://t.me/SYShort | SYShort"""
 
+METHOD_MESSAGE = """💬Contact Us : @Syshort_Support"""
 
 ADMINS_MESSAGE = """
 List of Admins who has access to this Bot
 
 {admin_list}
 """
+
+CHANNELS_LIST_MESSAGE = """
+Here is a list of the channels:
+
+{channels}"""
 
 ABOUT_REPLY_MARKUP = InlineKeyboardMarkup([
 
