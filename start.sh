@@ -1,7 +1,7 @@
 if [ -z $SOURCE_CODE ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/NikhilNGY/Shortner-Converter-Bot-V2.git /Shortner-Converter-Bot-V2
+  git clone https://github.com/Singhsawan/Shortner-Converter-Bot-V2.git /Shortner-Converter-Bot-V2
 else
   echo "Cloning Custom Repo from $SOURCE_CODE "
   git clone $SOURCE_CODE /Shortner-Converter-Bot-V2
